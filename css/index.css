@@ -1,0 +1,52 @@
+body{
+  background-image: url('../img/fondo.jpg');
+  background-repeat: no-repeat;
+  background-color: #111111;
+  font-family: arial;
+}
+
+#divModal{
+  width: 80%;
+  margin:auto;
+  margin-top: 3em;
+  background-color: white;
+  border-radius: 1em;
+  padding: 1em;
+}
+
+#divBotones{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  font-size: 3em;
+  color: blue;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 0.5em;
+}
+
+p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+
+button {
+  background-color: blue;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 1em 2em;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  cursor: pointer;
+  margin: 2em;
+}
+button:hover{
+  background-color: #5555FF;
+}

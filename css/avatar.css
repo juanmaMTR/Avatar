@@ -1,0 +1,113 @@
+body{
+  font-family: arial, sans-serif;
+  
+}
+
+#contenedor{
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("../img/fondoavatares.jpg");
+  background-repeat: no-repeat;
+}
+
+#divAvatar, #divDatos{
+   display: inline-block;
+   vertical-align: top;
+}
+
+#divAvatar{
+  width: 50%;
+}
+
+#divDatos{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  padding-left: 1em;
+}
+
+#divAvatar > img{
+  max-width: 100%;
+  max-height: 800px;
+}
+
+#pNombre{
+  font-weight: bold;
+  color: darkred;
+  font-size: 2em;
+}
+
+#divEquipo, .barra{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#divEquipo > img{
+  max-height: 3em;
+  margin-right: 1em;
+}
+
+.barra{
+  margin: 0.5em;
+  font-size: 1.5em;
+}
+
+.barra span{
+  font-weight: bold;
+}
+
+.barra > div{
+  width: 90%;
+  height: 0.5em;
+  margin: 0.2em;
+}
+
+.barra > div > div{
+  height: 100%;
+}
+
+#divVida {
+  color: red;
+}
+
+#divVida > div >div {
+  background-color: red;
+}
+
+#divPoder {
+  color: blue;
+}
+
+#divPoder > div >div {
+  background-color: blue;
+}
+
+#divExperiencia {
+  color: gold;
+}
+
+#divExperiencia > div >div {
+  background-color: gold;
+}
+
+#divPoderes{
+  display: flex;
+  flex-direction: column;
+  color: grey;
+}
+
+#divPoderes p{
+  font-size: 2em;
+}
+
+#divPoderes div{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+#divPoderes div img {
+  width: 20%;
+  margin-right: 1em;
+}
